@@ -7,8 +7,8 @@
  * logPrintFile(FILE * file, const char * format, ...) - funkcia sa sprava rovnako ako fprintf
 
 * MAKRA - Prefix SL -> Simple Logger
- * SL_NO_OUT - ak je toto makro definova - nic sa na vystup nevypisuje a funkcia sa len zavola bez toho ze by nieco robila
- * SL_OUT - nastavuje FILE ukazatel na vystup.
+ * SL_NO_OUT - ak je toto makro definovane - nic sa na vystup nevypisuje a funkcia sa zavola bez toho aby nieco robila
+ * SL_OUT - nastavuje vystup (FILE *) -> (stdout, stderr)
 
 
 
